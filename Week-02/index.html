@@ -4,13 +4,14 @@
             <meta charset="UTF-8">
             <meta name="description" content="gym website">
             <meta name="keywords" content="gym, fitness, crossfit, classes, functional">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">               
+            <meta name="author" content= "Mega Rocket SA">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+            <title>Mega Rocket</title>            
         </head>
         <body> 
             <header>
-            <title>Mega Rocket</title>
-            <img src="img\Icon.svg" alt="icon">
-            <nav>   
+                <img src="img\Icon.svg" alt="icon">
+                <nav>   
                 <h1>Mega Rocket</h1>
                 <!--Links are homepages because there are no profiles -->
                 <a href="https://linkedin.com/hp" target="_blank"> 
@@ -28,8 +29,34 @@
                 <a href="https://github.com/" target="_blank"> 
                     <img src="img\mdi_github.svg" alt="github logo">
                 </a>
-            </nav>
+                </nav>
             </header>
+            <nav>
+                <form>
+                    <input type="search" id="search" placeholder="Search">
+                </form>
+                <h4>Menu</h4>
+                <ul>
+                    <li>Home</li>
+                    <li>Sign up</li>
+                    <li>Log in</li>
+                    <li>Contact information</li>
+                </ul>
+                <h4>Contact Us</h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates labore ab veniam vel provident! 
+                    Rem temporibus adipisci, quis officiis recusandae veniam cumque, praesentium, neque similique excepturi 
+                    totam dolores magnam doloremque! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, modi 
+                    temporibus sequi dignissimos quo debitis autem, nobis deserunt sit adipisci qui molestias nihil ea sint. Ad natus ea quam excepturi.
+                </p>
+            
+                <img src="img\mail.svg" alt="mail icon">
+                <p>info.megarocket@megarocket.com</p>
+                <img src="img\bi_telephone.svg" alt="phone icon">
+                <p>54-341-xxxxxxxxx</p>
+                <img src="img\house.svg" alt="house icon">
+                <p>AAA xxx, Rosario, Argentina, CP 2000</p>        
+            </nav>
            
             <main>  
                 <p>Welcome to MEGA ROCKET</p>
@@ -73,13 +100,13 @@
                 <h5>Contact</h5>
                 <form>
                     <label for="fname">First name:</label>
-                    <input type="text">
+                    <input type="text" id="fname" name="fname" required>
                     <label for="lname">Last name:</label>
-                    <input type="text">
+                    <input type="text" id="lname" name="lname" required>
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                     <label for="creason">Contact reason:</label>
-                    <input list="Contact reason">
+                    <input list="Contact reason" required>
                     <datalist id="Contact reason">
                         <option value="I want to know about memebership and cost">
                         <option value="I want to make a question or suggestion">
@@ -88,7 +115,7 @@
                     <label for="message">Message:</label>
                         <textarea name="message" rows="10" cols="30">
                         </textarea>
-                    <input type="reset">
+                    <input type="reset" value="Clear">
                     <input type="submit" value="Send it">
                     
                 </form>
@@ -153,9 +180,16 @@
                 <li>Free pass to the weight room</li>
                 <li>Grid visualization</li>
             </ol>
-        
-       
-
+            <nav>
+                <button>Prev</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>...</button>
+                <button>Next</button>
+            </nav>
             <footer>    
                 <!--Links are homepages because there are no profiles -->
                 <a href="https://linkedin.com/hp" target="_blank"> 
